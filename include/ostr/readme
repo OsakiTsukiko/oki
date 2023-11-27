@@ -1,0 +1,15 @@
+OKI Standard 001 - OSTR - Dynamic Str Strings
+Strings as in "Hello World"
+
+trivial: I'm not naming this just 'Dynamic Strings' simply because of the confusion
+related to strings and arrays, BUT in this document I will still refer to them
+as dynamic strings, always saying dynamic str strings sounds dumb.
+
+I. DEFINITION
+DYNAMIC STRINGS ARE JUST DYNAMICALLY ALLOCATED CHAR ARRAYS WITH [II] STRING
+TERMINATORS.
+
+II. STRING TERMINATOR
+ALL DYNAMIC STRING SHOULD BE TERMINATED WITH THE ASCII NULL CHARACTER (0, '\0').                    # very original...
+THIS 'STRING TERMINATOR' CHARACTER WILL NOT BE INCLUDED IN THE STRING LENGTH. 
+THIS ALSO HELPS WITH COMPATIBILITY WITH OTHER STANDARDS.
