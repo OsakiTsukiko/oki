@@ -6,5 +6,6 @@ int main() {
     printf("%d\n", ostr_len(s));
     printf("%s\n", s);
 
+    ostr_destroy(s);
     return 0;
 }
