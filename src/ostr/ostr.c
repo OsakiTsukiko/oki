@@ -1,4 +1,5 @@
 #include <ostr/ostr.h>
+#include <stdlib.h>
 #include <string.h>
 
 unsigned int ostr_len(char *str) {
